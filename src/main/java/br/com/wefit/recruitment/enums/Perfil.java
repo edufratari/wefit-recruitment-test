@@ -1,6 +1,6 @@
 package br.com.wefit.recruitment.enums;
 
-public enum TipoPerfil {
+public enum Perfil {
     VENDEDOR,
     COMPRADOR
 }

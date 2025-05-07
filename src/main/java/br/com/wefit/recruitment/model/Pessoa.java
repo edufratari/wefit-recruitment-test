@@ -1,6 +1,6 @@
 package br.com.wefit.recruitment.model;
 
-import br.com.wefit.recruitment.enums.TipoPerfil;
+import br.com.wefit.recruitment.enums.Perfil;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -16,7 +16,7 @@ public abstract class Pessoa {
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
-    private TipoPerfil perfil;
+    private Perfil perfil;
 
     @Column(nullable = false)
     private String nome;

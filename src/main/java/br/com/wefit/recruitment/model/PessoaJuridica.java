@@ -13,7 +13,7 @@ public class PessoaJuridica extends Pessoa {
     @Column(unique = true)
     private String cnpj;
     
-    @Column(nullable = false)
+    @Column
     private String cpfResponsavel;
     
 }
